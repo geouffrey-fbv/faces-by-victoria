@@ -137,7 +137,6 @@ function Index() {
             onClick={() => setOpen((v) => !v)}
             className="p-2 text-foreground md:hidden"
           >
-            {open ? <Menu className="hidden" /> : null}
             {open ? <X className="size-5" /> : <Menu className="size-5" />}
           </button>
         </div>
