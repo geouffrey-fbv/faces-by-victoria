@@ -4,7 +4,7 @@ import { Instagram, Facebook, CalendarCheck, Menu, X } from "lucide-react";
 
 import { LINKS, BUSINESS } from "@/lib/site";
 import heroImg from "@/assets/hero-victoria.jpg";
-import logo from "@/assets/logo-faces-by-victoria.png";
+import logo from "@/assets/logo-faces-by-victoria-on-dark.png";
 import aboutImg from "@/assets/about-victoria.jpg";
 import social1 from "@/assets/social-1.jpg";
 import social2 from "@/assets/social-2.jpg";
