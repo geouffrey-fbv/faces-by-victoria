@@ -3,7 +3,7 @@ export const LINKS = {
   fresha: "https://www.fresha.com/en-GB/a/faces-by-victoria-gibraltar-17-21-cannon-lane-ovu11ns3",
   instagram: "https://www.instagram.com/faces.byvictoria/",
   facebook: "https://www.facebook.com/",
-  whatsapp: "https://wa.me/35000000000",
+  whatsapp: "https://wa.me/447581070988",
 } as const;
 
 export const BUSINESS = {

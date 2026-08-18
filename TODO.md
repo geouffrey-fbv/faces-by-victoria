@@ -13,14 +13,15 @@ an asset, or an account change before they can be actioned.
       Contact section and add it to the JSON-LD in `src/routes/__root.tsx` so
       the site and the listing reinforce each other in local search.
 - [ ] **Update Fresha to use the new email.** Account change on Fresha's side.
+- [ ] **Remove references to Ian from the Fresha "About".** Fresha account
+      content, edited on Fresha rather than in this repo. The website copy is
+      already clear of him; the booking page visitors land on is not.
 
 ## Placeholder content still on the live site
 
 - [ ] **Facebook link is a placeholder** — `LINKS.facebook` in
       `src/lib/site.ts` points at `https://www.facebook.com/`. Needs the real
       page, or the link should be removed.
-- [ ] **WhatsApp number is a placeholder** — `LINKS.whatsapp` is
-      `wa.me/35000000000`. Needs Victoria's real number, or removal.
 - [ ] **5 of the 6 Instagram grid tiles are stock photography** (serum bottles,
       pampas grass, a clinic interior, a gloved model, silk fabric). Only
       `social-1.jpg` is real Faces By Victoria content. Replace with real posts.
@@ -50,3 +51,4 @@ an asset, or an account change before they can be actioned.
 - [x] Booking link fixed — the previous Fresha URL returned 404 sitewide
 - [x] Treatments aligned to Fresha categories, Hair Loss added
 - [x] Real Instagram photos in the About section and first social tile
+- [x] WhatsApp wired to the real number with the WhatsApp brand icon
