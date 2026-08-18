@@ -204,8 +204,8 @@ function Index() {
               <img
                 src={heroImg}
                 alt="Victoria, aesthetics and skin specialist in Gibraltar"
-                width={1200}
-                height={1504}
+                width={1080}
+                height={1440}
                 fetchPriority="high"
                 className="aspect-[4/5] w-full rounded-[2rem] border border-border object-cover shadow-[var(--shadow-soft)]"
               />
