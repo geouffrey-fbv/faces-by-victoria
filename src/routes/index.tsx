@@ -4,6 +4,7 @@ import { Instagram, Facebook, CalendarCheck, Menu, X } from "lucide-react";
 
 import { LINKS, BUSINESS } from "@/lib/site";
 import heroImg from "@/assets/hero-victoria.jpg";
+import logo from "@/assets/logo-faces-by-victoria.png";
 import aboutImg from "@/assets/about-victoria.jpg";
 import social1 from "@/assets/social-1.jpg";
 import social2 from "@/assets/social-2.jpg";
@@ -127,12 +128,14 @@ function Index() {
       {/* Nav */}
       <header className="fixed inset-x-0 top-0 z-40">
         <div className="glass mx-auto mt-3 flex max-w-6xl items-center justify-between rounded-full border border-border px-4 py-2.5 md:mt-5 md:px-4 md:py-3">
-          <a
-            href="#top"
-            className="font-display flex items-center gap-2 pl-2 text-base tracking-tight md:text-lg"
-          >
-            <span className="size-2 rounded-full bg-accent" />
-            Faces By Victoria
+          <a href="#top" aria-label="Faces By Victoria" className="flex items-center pl-2">
+            <img
+              src={logo}
+              alt="Faces By Victoria"
+              width={448}
+              height={448}
+              className="size-11 object-contain md:size-14"
+            />
           </a>
           <nav className="hidden items-center gap-8 md:flex">
             {NAV.map((n) => (
