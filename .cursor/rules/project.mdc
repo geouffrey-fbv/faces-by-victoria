@@ -1,0 +1,24 @@
+---
+description: Faces By Victoria — project conventions, stack and guardrails
+alwaysApply: true
+---
+
+This project's full working instructions live in @CLAUDE.md — read it first.
+
+Also required reading before non-trivial changes:
+
+- @README.md — the design brief (scope, brand, section-by-section spec)
+- @AGENTS.md — Lovable git constraints
+- @src/routes/README.md — TanStack Start file-based routing conventions
+
+Quick facts:
+
+- Package manager is **bun**, not npm. Dev server is on port **8080**.
+- Vite config comes from `@lovable.dev/vite-tanstack-config`; it already bundles
+  the React plugin, Tailwind, tsconfig paths, Nitro and devtools. Never add them
+  manually.
+- Tailwind **v4** — theme lives in `src/styles.css`, there is no tailwind.config.js.
+- `src/routeTree.gen.ts` is generated. Never edit it by hand.
+- External links and business details belong in `src/lib/site.ts`.
+- This repo syncs with Lovable: never force-push, rebase, amend or squash
+  commits that are already pushed.
