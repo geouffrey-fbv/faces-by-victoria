@@ -33,8 +33,6 @@ an asset, or an account change before they can be actioned.
 
 ## Technical
 
-- [ ] **Favicon 404s.** `src/routes/__root.tsx` hardcodes `/favicon.ico`.
-      Also worth replacing the default icon with the FBV logo mark.
 - [ ] **`canonical` and `og:url` render as `"/"`** in `src/routes/__root.tsx`
       instead of `https://facesbyvictoria.com`. This weakens SEO and makes
       link previews wrong when shared.
@@ -54,3 +52,4 @@ an asset, or an account change before they can be actioned.
 - [x] Treatments aligned to Fresha categories, Hair Loss added
 - [x] Real Instagram photos in the About section and first social tile
 - [x] WhatsApp wired to the real number with the WhatsApp brand icon
+- [x] Favicon built from the V monogram, replacing the Lovable default
