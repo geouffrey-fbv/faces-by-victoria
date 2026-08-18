@@ -96,10 +96,6 @@ const TREATMENTS = [
     title: "Body Treatments",
     copy: "Fat-dissolving injections and Ultra Sculpt body contouring, targeted to the areas you want to address.",
   },
-  {
-    title: "Hair Loss",
-    copy: "Treatments for thinning and hair loss, assessed and planned around your needs in consultation.",
-  },
 ];
 
 const TILES = [social1, social2, social3, social4, social5, social6];

@@ -9,6 +9,8 @@ an asset, or an account change before they can be actioned.
       Victoria's Fresha service categories. Victoria should confirm which five
       she actually wants to lead with — these may not be the same as the
       category list, and the page reads better with her priorities first.
+      Note: Hair Loss is a real Fresha category but is deliberately not shown
+      on the site. Worth a conscious decision when the final five are picked.
 - [ ] **Add Google Business Page.** Not yet created. Once live, link it from the
       Contact section and add it to the JSON-LD in `src/routes/__root.tsx` so
       the site and the listing reinforce each other in local search.
