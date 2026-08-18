@@ -24,9 +24,15 @@ an asset, or an account change before they can be actioned.
 - [ ] **Facebook link is a placeholder** — `LINKS.facebook` in
       `src/lib/site.ts` points at `https://www.facebook.com/`. Needs the real
       page, or the link should be removed.
-- [ ] **5 of the 6 Instagram grid tiles are stock photography** (serum bottles,
-      pampas grass, a clinic interior, a gloved model, silk fabric). Only
-      `social-1.jpg` is real Faces By Victoria content. Replace with real posts.
+- [ ] **The Instagram grid is mostly generic imagery** (serum bottles, pampas
+      grass, a clinic interior, a gloved model, silk fabric). The section is
+      headed "See more on Instagram" and links to @faces.byvictoria, so
+      visitors read these as her posts. Replace with real posts when Victoria
+      has picked some. A real lip-treatment photo was tried in tile 1 but
+      pulled: it was a clinical macro and clashed with the soft editorial
+      styling of the other five, so the whole set wants replacing together
+      rather than one tile at a time. Tile 1 is back to the original warm
+      close-up that shipped with the first build.
 - [ ] **Instagram grid alt text is generic** — every tile reads "Faces By
       Victoria treatment and skin imagery 1-6". Should describe the actual
       treatment shown, for accessibility and search.
