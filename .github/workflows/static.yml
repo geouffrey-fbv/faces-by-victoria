@@ -1,4 +1,4 @@
-# Simple workflow for deploying static content to GitHub Pages
+# Deploy the prerendered site to GitHub Pages
 name: Deploy static content to Pages
 
 on:
@@ -22,7 +22,6 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Single deploy job since we're just deploying
   deploy:
     environment:
       name: github-pages
@@ -31,13 +30,36 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Setup Pages
+        id: pages
         uses: actions/configure-pages@v5
+
+      # This project is built with Bun (bun.lock, bunfig.toml), not npm.
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      # DEPLOY_TARGET switches vite.config.ts into static-export mode: Nitro off,
+      # prerender on, so the SSR app is rendered to real HTML that Pages can serve.
+      # PAGES_BASE comes from configure-pages, so it is "/<repo>/" for a project
+      # site and "/" for a custom domain — no manual edit needed either way.
+      - name: Build
+        run: bun run build
+        env:
+          DEPLOY_TARGET: gh-pages
+          PAGES_BASE: ${{ steps.pages.outputs.base_path }}/
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
-          path: './dist' # Now the dist folder actually exists!
+          # Prerendered HTML + client assets. NOT '.' and NOT './dist'.
+          path: "./dist/client"
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
