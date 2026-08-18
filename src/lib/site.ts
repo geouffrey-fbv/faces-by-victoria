@@ -1,6 +1,6 @@
 // Update these links with the real Faces By Victoria destinations.
 export const LINKS = {
-  fresha: "https://www.fresha.com/a/faces-by-victoria-gibraltar",
+  fresha: "https://www.fresha.com/en-GB/a/faces-by-victoria-gibraltar-17-21-cannon-lane-ovu11ns3",
   instagram: "https://www.instagram.com/faces.byvictoria/",
   facebook: "https://www.facebook.com/",
   whatsapp: "https://wa.me/35000000000",

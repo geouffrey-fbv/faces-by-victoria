@@ -68,23 +68,27 @@ const NAV = [
 const TREATMENTS = [
   {
     title: "Anti-Wrinkle",
-    copy: "Treatments designed to soften lines while maintaining natural facial movement.",
+    copy: "Botulinum toxin treatments that soften lines and wrinkles while keeping your expression your own.",
   },
   {
     title: "Dermal Fillers",
-    copy: "Subtle enhancement and facial balancing, including lips, cheeks and facial contouring.",
+    copy: "Lip enhancement, cheek definition and facial balancing, placed subtly and built around your features.",
   },
   {
     title: "Skin & Rejuvenation",
-    copy: "Skin boosters, advanced skincare and treatments focused on improving skin quality and rejuvenation.",
+    copy: "Skin boosters, dermatology-led skincare and bespoke facial plans focused on long-term skin quality.",
   },
   {
     title: "PDO Threads",
-    copy: "Non-surgical treatments designed to support lifting and facial rejuvenation.",
+    copy: "A non-surgical approach to lifting, using threads to support and redefine facial contours.",
   },
   {
     title: "Body Treatments",
-    copy: "Fat-dissolving and body-contouring treatments currently offered by Victoria.",
+    copy: "Fat-dissolving injections and Ultra Sculpt body contouring, targeted to the areas you want to address.",
+  },
+  {
+    title: "Hair Loss",
+    copy: "Treatments for thinning and hair loss, assessed and planned around your needs in consultation.",
   },
 ];
 
