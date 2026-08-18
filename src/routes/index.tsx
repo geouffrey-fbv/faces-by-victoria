@@ -256,9 +256,9 @@ function Index() {
             <div className="grid gap-10 md:grid-cols-2 md:items-center md:gap-16">
               <img
                 src={aboutImg}
-                alt="Victoria at her aesthetics studio in Gibraltar"
-                width={1008}
-                height={1264}
+                alt="Victoria, aesthetics and skin specialist at Faces By Victoria in Gibraltar"
+                width={960}
+                height={1200}
                 loading="lazy"
                 className="aspect-[4/5] w-full rounded-[2rem] border border-border object-cover"
               />
