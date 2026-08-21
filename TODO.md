@@ -11,9 +11,16 @@ an asset, or an account change before they can be actioned.
       category list, and the page reads better with her priorities first.
       Note: Hair Loss is a real Fresha category but is deliberately not shown
       on the site. Worth a conscious decision when the final five are picked.
-- [ ] **Add Google Business Page.** Not yet created. Once live, link it from the
-      Contact section and add it to the JSON-LD in `src/routes/__root.tsx` so
-      the site and the listing reinforce each other in local search.
+- [ ] **Finish the Google Business Profile.** Page is created. Category,
+      services, description and image specs are drafted in
+      `brand/business-profile.md`. Still needs: real photography (exterior,
+      interior, Victoria at work), and once live, link it from the Contact
+      section and add it to the JSON-LD in `src/routes/__root.tsx`.
+- [ ] **Check POM advertising compliance.** Botulinum toxin is a
+      prescription-only medicine and cannot be advertised to the public. Site
+      copy has been corrected, but Fresha still has a category literally named
+      "Botulinum Toxin", and no toxin before/after images should be posted
+      anywhere. See the warning at the top of `brand/business-profile.md`.
 - [ ] **Update Fresha to use the new email.** Account change on Fresha's side.
 - [ ] **Remove references to Ian from the Fresha "About".** Fresha account
       content, edited on Fresha rather than in this repo. The website copy is

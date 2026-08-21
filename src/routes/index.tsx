@@ -80,7 +80,7 @@ function WhatsAppIcon({ className }: { className?: string }) {
 const TREATMENTS = [
   {
     title: "Anti-Wrinkle",
-    copy: "Botulinum toxin treatments that soften lines and wrinkles while keeping your expression your own.",
+    copy: "Treatments that soften lines and wrinkles while keeping your expression your own.",
   },
   {
     title: "Dermal Fillers",
